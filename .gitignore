@@ -1,0 +1,24 @@
+# Ignore system files by default...
+.*
+#...except these
+!.gitignore
+!.eslintignore
+!.eslintrc.json
+!.babelrc
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+
+# Log
+log/
+logs/
+debug/
+.log
+.debug
+
+# Artifacts
+*.ipa
+*.apk

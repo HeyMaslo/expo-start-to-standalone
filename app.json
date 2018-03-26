@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "sdkVersion": "25.0.0",
+    "name": "expo-start-to-standalone",
+    "description": "An Expo boilerplate project",
+    "slug": "expo-start-to-standalone",
+    "version": "0.0.0",
+    "privacy": "unlisted",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname"
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname"
+    }
+  }
+}
